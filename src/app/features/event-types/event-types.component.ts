@@ -133,9 +133,9 @@ import { CommonModule } from '@angular/common';
 })
 export class EventTypesComponent {
     eventTypes = [
-        { title: 'Conferences & Congresses', description: 'Large-scale professional gatherings with keynote speakers, multiple tracks, and networking sessions.', image: 'https://images.unsplash.com/photo-1540575861501-7ad058ec383f?auto=format&fit=crop&q=80' },
-        { title: 'Exhibitions & Expos', description: 'Trade shows and exhibitions with custom stall fabrication, sponsor branding, and visitor management.', image: 'https://images.unsplash.com/photo-1531058021387-323ac5640306?auto=format&fit=crop&q=80' },
-        { title: 'Corporate Events', description: 'Board meetings, product launches, annual general meetings, and team-building experiences.', image: 'https://images.unsplash.com/photo-1511578314322-379afb476865?auto=format&fit=crop&q=80' },
-        { title: 'Virtual & Hybrid Events', description: 'Seamless digital experiences combining in-person and online participation with advanced streaming.', image: 'https://images.unsplash.com/photo-1588196749597-9ff075ee6b5b?auto=format&fit=crop&q=80' }
+        { title: 'Conferences & Congresses', description: 'Large-scale professional gatherings with keynote speakers, multiple tracks, and networking sessions.', image: 'assets/conference.png' },
+        { title: 'Exhibitions & Expos', description: 'Trade shows and exhibitions with custom stall fabrication, sponsor branding, and visitor management.', image: 'assets/exhibition.png' },
+        { title: 'Corporate Events', description: 'Board meetings, product launches, annual general meetings, and team-building experiences.', image: 'assets/corporate.png' },
+        { title: 'Virtual & Hybrid Events', description: 'Seamless digital experiences combining in-person and online participation with advanced streaming.', image: 'assets/virtual.png' }
     ];
 }
